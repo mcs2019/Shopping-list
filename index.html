@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class ='container'>
+      <div class ='intro'>
+        <img class ='shoppingCartImage'src="https://unixtitan.net/images/carts-clipart-groceries-shopping-2.png" alt="Picture of a Shopping Card">
+        <h1> Shopping List</h1>
+        <h2>By: Marcos Sant'Anna</h2>
+        <p><strong> It's time to make your shopping list<br>
+        Enter each item in the txt box bellow, then press add!</strong></p>
+      </div>
+      <!-- this will reset and check buttons -->
+      <div class = 'container'>
+        <form class='resetContainer'>
+          <button class = 'reset-list' type ='submit'>Reset</button>
+          <button class ='checked' type ='submit'>Check</button>
+        </form>
+      </div>
+<!-- this section will allow us to add grocery items -->
+       
+       <div class = ' list-area-insertion container'>
+        <form>
+          <input type ='text' class='shoppingListItem' name = 'shoppingListItem' placeholder ='Enter each item and click'>
+          <button type ='submit' id='add' value ='add'>Add</button>
+        </form>
+       </div>
+       <!-- to hold list items dynamically-->
+      <div class ='list'>
+
+      </div>
+
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>

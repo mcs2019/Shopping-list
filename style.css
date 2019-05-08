@@ -1,0 +1,93 @@
+* General Styles */
+/* (* = apply to all elemtents) */
+*{
+  box-sizing:borde-box;
+}
+
+html {
+  -webkit-font-smoothing : antialiased;
+  text-rendering : optimizeLegibility;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background-color:lightgray;
+}
+
+hr {
+  width : 37px;
+  height : 10px;
+  color : #000;
+}
+
+/* header section */
+
+.container{
+  text-align : center;
+  margin : 0 auto;
+  padding-bottom: 1em;
+}
+
+.shoppingCartImage{
+width: 4.25em;
+height: 4.25em;
+}
+
+.intro {
+  margin-top: 2.18em;
+}
+
+.intro h1 {
+  margin-top: 0.12em;
+}
+
+/* reset list */
+
+.resetContainer {
+
+  font-family: 'Raleway', sans-serif;
+  /* font-weight: 400;
+  font-size: 0.18em;
+  left: 41.4em;
+  line-height: 1.43em;
+  margin-bottom: 2em;
+  text-align: left;
+  width: 12.5em;
+  margin: 0 auto; */
+
+}
+
+/* The input */
+
+.list-area-insertion input[type='text']{
+  width: 16em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+button[type='submit']{
+  background-color:red;
+  width:6em;
+  height:2.3em;
+  border-left-width: 0;
+  margin:0;
+  border-style:none;
+  border: 1px solid rgb(68, 1, 1);
+}
+
+ul,li {
+  list-style: none;
+  padding-left:0;
+  padding-top:5px;
+  text-align: left;
+  color: red;
+}
+
+li {
+  border:1px solid black;
+  background-color: white;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top:10px;
+  width:14em;
+}
