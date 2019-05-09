@@ -1,4 +1,4 @@
-* General Styles */
+/* General Styles */
 /* (* = apply to all elemtents) */
 *{
   box-sizing:borde-box;
@@ -8,15 +8,24 @@ html {
   -webkit-font-smoothing : antialiased;
   text-rendering : optimizeLegibility;
   font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 body {
   background-color:lightgray;
+  /* background-image:url("g2.png");
+  background-repeat: no-repeat;
+  background-position: 10px 350px;
+  background-size: 50%; */
+  background-image : url('supermarket.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 hr {
   width : 37px;
   height : 10px;
-  color : #000;
+  color : rgb(5, 5, 5);
 }
 
 /* header section */
@@ -63,31 +72,5 @@ height: 4.25em;
   height: 2em;
   margin: 0;
   padding: 0;
-}
-
-button[type='submit']{
-  background-color:red;
-  width:6em;
-  height:2.3em;
-  border-left-width: 0;
-  margin:0;
-  border-style:none;
-  border: 1px solid rgb(68, 1, 1);
-}
-
-ul,li {
-  list-style: none;
-  padding-left:0;
-  padding-top:5px;
-  text-align: left;
-  color: red;
-}
-
-li {
-  border:1px solid black;
-  background-color: white;
-  height: 1.5em;
-  margin: 0 auto;
-  margin-top:10px;
-  width:14em;
+  
 }
